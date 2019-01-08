@@ -1,0 +1,9 @@
+ ----
+ Module org.mav_proj:com.emp_details
+ ----
+
+org.mav_proj:com.emp_details Documentation
+
+  This is where you can start to document your module.
+
+  Create new files in the Maven APT format, and update the site.xml file to point to them.

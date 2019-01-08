@@ -1,0 +1,15 @@
+<html t:type="layout" title="newapp com.example"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+<div class="row">
+    <div class="span4 offset3">
+        <t:form t:id="loginForm">
+            <h2>Please sign in</h2>
+            <t:textfield t:id="userName" validate="required" t:mixins="formgroup"/>
+            <t:passwordfield t:id="password" value="password" validate="required" t:mixins="formgroup"/>
+            <t:submit class="btn btn-large btn-primary" value="Sign in"/>
+        </t:form>
+    </div>
+</div>
+
+</html>
