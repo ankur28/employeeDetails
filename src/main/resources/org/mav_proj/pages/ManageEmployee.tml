@@ -8,10 +8,10 @@
             <h2>Employee Details</h2>
 
         </div>
-        <t:pagelink page="addEmployee">Add New Employee</t:pagelink><br/>
+        <t:pagelink page="addEmployee">Add a New Employee record</t:pagelink><br/>
 
         <div>
-        <table class="table table-hover table-bordered table-striped">
+        <table class="table table-hover table-bordered table-striped" style="background-color:#FFF8DC">
             <thead>
             <tr>
                 <th>Id</th>
