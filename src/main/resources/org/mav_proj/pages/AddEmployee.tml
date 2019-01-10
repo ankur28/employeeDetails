@@ -1,0 +1,26 @@
+<html t:type="layout" title="newapp com.example"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+<div class="row">
+
+    <div class="span4 offset3">
+
+        <t:form t:id="addForm">
+
+            <fieldset>
+                <legend>Add new Employee</legend>
+                <t:label for="id">ID</t:label>
+                <t:textfield t:id="id"  />
+                <t:label for="lastname">Last Name</t:label>
+                <t:textfield t:id="lastname"  />
+                <t:label for="firstname">First Name</t:label>
+                <t:textfield t:id="firstname"  />
+                <t:label for="dept">Department</t:label>
+                <t:textfield t:id="dept"  /><br></br>
+
+                <t:submit t:id="sub" class="btn btn-large btn-primary" value="Save"/>
+
+            </fieldset>
+        </t:form>
+
+    </div></div></html>

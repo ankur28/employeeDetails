@@ -10,7 +10,7 @@ public interface EmployeeDao {
 
 
 
- //       void save(Employee e);
+        void save(Employee employee);
 
         public List<Employee> getEmployee();
 

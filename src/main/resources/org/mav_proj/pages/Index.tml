@@ -8,7 +8,7 @@
             <t:errors/>
 
             <h2>Please sign in</h2>
-            <t:label for="userName">UserName</t:label>
+            <t:label for="userName">User Name</t:label>
              <t:textfield t:id="userName" t:validate="required" />
             <t:label for="password"></t:label>
             <t:passwordfield t:id="password"  t:validate="required" />

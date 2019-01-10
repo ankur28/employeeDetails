@@ -8,7 +8,9 @@
             <h2>Employee Details</h2>
 
         </div>
+        <t:pagelink page="addEmployee">Add New Employee</t:pagelink><br/>
 
+        <div>
         <table class="table table-hover table-bordered table-striped">
             <thead>
             <tr>
@@ -18,6 +20,7 @@
                 <th>Department</th>
             </tr>
             </thead>
+
             <tbody>
             <tr t:type="loop" t:source="employees" t:value="employee" >
                 <td>${employee.id}</td>
@@ -29,7 +32,7 @@
             </tbody>
         </table>
 
-    
+        </div>
 
 
     </div>

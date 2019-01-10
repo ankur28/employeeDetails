@@ -1,5 +1,7 @@
 package org.mav_proj.pages;
 
+import org.apache.tapestry5.annotations.InjectPage;
+import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.mav_proj.dao.EmployeeDao;
 import org.mav_proj.model.Employee;
@@ -12,6 +14,13 @@ public class ManageEmployee {
 private EmployeeDao employeeDao;
 
     private Employee employee;
+
+    @InjectPage
+    @Property
+    private AddEmployee addEmployee;
+
+
+
 
     public Employee getEmployee() {
         return employee;
@@ -29,6 +38,8 @@ private EmployeeDao employeeDao;
 
         return employeeDao.getEmployee();
     }
+
+
 
     }
 
